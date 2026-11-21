@@ -1,0 +1,20 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="arm64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Sandbox/Sandbox.csproj" Id="9bfc8868-51e0-4673-8d14-648b39b32b5c" />
+  <Project Path="SE7.Templates.Items.RecordClass/SE7.Templates.Items.RecordClass.csproj" Id="52db9cfb-7865-4cd5-9c97-f2e2082d9929">
+    <Platform Solution="*|arm64" Project="arm64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="SE7.Templates.Items.RecordStruct/SE7.Templates.Items.RecordStruct.csproj" Id="4f27744c-eedf-43df-a2a9-00067f8b3d3a">
+    <Platform Solution="*|arm64" Project="arm64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="SE7.Templates.Items.Struct/SE7.Templates.Items.Struct.csproj" Id="f6a650d2-8702-4548-9cbd-1be5856e65b6">
+    <Platform Solution="*|arm64" Project="arm64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+</Solution>

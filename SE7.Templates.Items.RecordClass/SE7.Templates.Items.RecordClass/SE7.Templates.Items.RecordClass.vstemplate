@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Record Class</Name>
+    <Description>[SE7.Templates.Items.RecordClass]: Create a basic C# record class.</Description>
+    <Icon>SE7.Templates.Items.RecordClass.ico</Icon>
+    <TemplateID>2c6dcd97-95f1-4c99-b4dc-525f438602e5</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+	<ProjectSubType>Code</ProjectSubType>
+	<RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>RecordClass.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">RecordClass.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

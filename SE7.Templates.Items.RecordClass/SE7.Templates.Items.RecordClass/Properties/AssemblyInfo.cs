@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SE7.Templates.Record")]
+[assembly: AssemblyTitle("SE7.Templates.Items.RecordClass")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Matthew Aliwarga")]
-[assembly: AssemblyProduct("SE7.Templates.Record")]
+[assembly: AssemblyProduct("SE7.Templates.Items.RecordClass")]
 [assembly: AssemblyCopyright("Copyright © Matthew Aliwarga 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e24bbfae-224f-49a2-b637-8e6902b42a09")]
+[assembly: Guid("52db9cfb-7865-4cd5-9c97-f2e2082d9929")]
 
 // Version information for an assembly consists of the following four values:
 //

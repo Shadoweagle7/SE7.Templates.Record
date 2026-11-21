@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Record Struct</Name>
+    <Description>[SE7.Templates.Items.RecordStruct]: Create a basic C# record struct.</Description>
+    <Icon>SE7.Templates.Items.RecordStruct.ico</Icon>
+    <TemplateID>378e4194-21e5-4ecf-bb96-488e4b65407e</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+	<ProjectSubType>Code</ProjectSubType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>RecordStruct.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+	<ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">RecordStruct.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

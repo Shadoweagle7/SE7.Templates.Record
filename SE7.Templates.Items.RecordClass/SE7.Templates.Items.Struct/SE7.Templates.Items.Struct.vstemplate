@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>SE7.Templates.Record</Name>
-    <Description>SE7.Templates.Record</Description>
-    <Icon>SE7.Templates.Record.ico</Icon>
-    <TemplateID>0228565d-2f2e-49c0-8f44-8c0f2c4777db</TemplateID>
+    <Name>Struct</Name>
+    <Description>[SE7.Templates.Items.Struct]: Create a basic C# struct.</Description>
+    <Icon>SE7.Templates.Items.Struct.ico</Icon>
+    <TemplateID>de6ef35f-490c-4b64-8854-f4eec18c196e</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+	<ProjectSubType>Code</ProjectSubType>
+	<RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <DefaultName>Class.cs</DefaultName>
+    <DefaultName>Struct.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
     <References>
@@ -16,6 +17,6 @@
         <Assembly>System</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
+	<ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs"  ReplaceParameters="true">Struct.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
